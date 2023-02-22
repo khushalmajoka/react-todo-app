@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* ff 3.6+ */
+background:-moz-linear-gradient(180deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* safari 5.1+,chrome 10+ */
+background:-webkit-linear-gradient(180deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
 
-.App-link {
-  color: #61dafb;
-}
+/* opera 11.10+ */
+background:-o-linear-gradient(180deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ie 6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073ABB', endColorstr='#00FFEB', GradientType=1 );
+
+/* ie 10+ */
+background:-ms-linear-gradient(180deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+/* global 94%+ browsers support */
+background:linear-gradient(180deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
 }
